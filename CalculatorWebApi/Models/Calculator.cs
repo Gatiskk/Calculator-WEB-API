@@ -6,7 +6,7 @@
         {
             return num1 + num2;
         } 
-        public  double Substraction(double num1, double num2)
+        public  double Subtraction(double num1, double num2)
         {
             return num1 - num2;
         }
@@ -18,8 +18,6 @@
         {
             return num1 / num2;
         }
-
-
 
     }
 }

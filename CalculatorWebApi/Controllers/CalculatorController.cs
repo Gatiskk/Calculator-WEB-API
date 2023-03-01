@@ -16,19 +16,19 @@ namespace CalculatorWebApi.Controllers
         {
             return obj.result = cal.Addition(number1, number2);
         }
-        [Route("Sub")]
+        [Route("Substract")]
         [HttpGet]
         public double Sub(double number1, double number2)
         {
             return obj.result = cal.Substraction(number1, number2);
         }
-        [Route("Mul")]
+        [Route("Muliply")]
         [HttpGet]
         public double Mul(double number1, double number2)
         {
             return obj.result = cal.Multiplication(number1, number2);
         }
-        [Route("Div")]
+        [Route("Divide")]
         [HttpGet]
         public double Div(double number1, double number2)
         {
