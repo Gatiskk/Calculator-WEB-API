@@ -9,7 +9,7 @@ namespace CalculatorWebApi.Controllers
     {
        
         CalculatorLibrary.Calculator cal = new CalculatorLibrary.Calculator();
-        Calc obj = new Calc();
+        Input obj = new Input();
         [Route("Add")]
         [HttpGet]
         public double Add(double number1, double number2)
